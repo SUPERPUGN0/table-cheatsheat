@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Fragment Mono', monospace;
+    background: black;
+    color: white;
+}
+
+body {
+    padding: 50px 25%;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+caption {
+    margin: 25px;
+    font-size: 1.3rem;
+}
+
+table {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+tr {
+    height: 3em;
+}
+
+tr td:nth-of-type(2) {
+    padding-left: 50px;
+}
+
+td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgb(201, 201, 201);
+}
+
+th {
+    font-size: 1.3em;
+    background-color: white;
+    color: black;
+}
+
+a {
+    color: white;
+}
+
+td:hover {
+    background-color: rgb(255, 97, 97);
+    cursor: pointer;
+}
